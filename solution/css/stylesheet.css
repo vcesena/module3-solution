@@ -18,6 +18,7 @@
   margin-bottom: 0px;
   line-height: 0.5;
   font-family: 'Permanent Marker', cursive;
+  color: #5F9EA0;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -77,15 +78,6 @@ p {
     overflow: hidden;
  }
 
- /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
