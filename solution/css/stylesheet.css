@@ -1,0 +1,111 @@
+ body {
+  font-size: 16px;
+  background-color: #5F9EA0;
+}
+
+#header-nav {
+  background-color: #FFEBCD;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0.8px 0.8px 0.8px #222;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: 0.5;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #5F9EA0;
+
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -70px;
+}
+
+li {
+    text-align: center;
+    color: #5F9EA0;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #222;
+    color: #FFEBCD;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+p {
+    text-decoration: none;
+    color: black;
+ }
+
+
+ .category-tile {
+    background-color: #FFEBCD;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    overflow: hidden;
+ }
+
+ /********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+}
+
